@@ -1,0 +1,89 @@
+html,body {
+    font-family:monospace;
+    text-indent: inherit;
+    
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    overflow: hidden;
+}
+.circle{
+   width: 450px;
+  height: 450px;
+  border: 8px solid #ea0b29;
+  border-radius: 50%;
+  margin-top: 30px;    
+  position: relative;
+  /*box-shadow: 30px 30px 40px 40px blue;*/
+  background: orange;
+  background-position: left;
+}
+#start {
+  postition: absolute;
+  margin-top: 90px;
+/*  margin-left: 118px;*/
+  text-transform: uppercase;
+    text-align: center;
+  letter-spacing: 4px;
+  font-stretch: expanded;
+  font-weight: bold;
+  color:floralwhite;
+  font-size: 4em;
+}
+p {
+    position:absolute;
+    
+    font-size: 6em;
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-left: 102px;
+    color: firebrick;
+}
+.center {
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 5em;
+    color: firebrick;
+}
+
+.break1 {
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: -5px;
+    padding: 20px;
+    
+}
+.break2 {
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: -5px;
+    padding: 20px;
+}
+
+.interval {
+    margin-left: -25px;
+    font-weight: 600;
+}
+
+.freeTime {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+ button {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: darkorange;
+}
+
+#stop {
+    font-weight: bold;
+    color: firebrick;
+}
+
+.center-block {
+    text-align: center;
+    margin-top: -10px;
+}

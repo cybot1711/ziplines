@@ -1,0 +1,55 @@
+html,
+body {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  padding: 20px;
+  margin-top: 30px;
+  color: #F8F8F8;
+  font-weight: bold;
+  text-shadow: 0 2px 2px #F17046;
+}
+
+h5 {
+   font-style: italic;
+}
+
+body {
+  
+  background: url('http://nice-cool-pics.com/data/media/30/wisdom_book.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+-webkit-background-size:100% 100%;
+-moz-background-size:100% 100%;
+-o-background-size:100% 100%;
+-ms-background-size:100% 100%;
+ 
+}
+
+.jumbotron {
+  margin-top: 60px;
+  width: 50%;
+  height: 50%;
+  -webkit-box-shadow: 0 0 15px #F17046;
+  box-shadow: 0 0 15px #F17046;
+}
+
+.lead {
+  text-align: center;
+  text-shadow: 0 1px 1px #F17046;
+}
+button {
+  
+  width: 140px;
+  height: 40px;
+  color: #F17046;
+  font-weight: bold;
+  margin-top: -3px;
+  box-shadow: 0 0 10px #F17046;
+  border: 1px solid #F17046;
+  border-radius: 4%;
+}
